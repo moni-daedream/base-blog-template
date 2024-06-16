@@ -104,8 +104,8 @@ section { position: relative; }
 .bg-v-light  { background-color: var(--v-light); }
 
 .bg-image {
-    background-color: var(--light); /* Set a fall-back color while images are loading */ 
-    background-image: url('https://source.unsplash.com/8Ogfqvw15Rg/1600x1600');
+    background-color: var(--dark); /* Set a fall-back color while images are loading */ 
+    background-image: url(assets/working-in-studio.jpg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -130,13 +130,21 @@ section { position: relative; }
 /* Add a second class to change the color or style  */
 
 .bg-overlay-gradient::after { 
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 } 
 
 .bg-overlay-featured::after { 
   background-color: var(--featured);
   opacity: 0.5;
 } 
+
+.bg-blur {
+  filter: blur(5px);
+}
+
+.bg-blur-none {
+  filter: blur(none);
+}
 
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 

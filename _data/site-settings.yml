@@ -1,8 +1,8 @@
 seo: 
-  site_name: Tina's Amazing Blog
-  title: Default SEO Title
-  description: 
-  keywords: 
+  site_name: Designs by Day
+  title: Designs by Day
+  description: Designs by Day empowers female entrepreneurs with innovative branding and design solutions tailored for male-dominated industries. My collaborative approach ensures standout brands that amplify female voices and make a lasting impact.
+  keywords: Female-led business branding, Empowering design solutions, Brand strategy for male-dominated industries, Collaborative design process, User-friendly website development, Standout brand identities, Modern aesthetics for female entrepreneurs, Client-centric design approach, Amplifying female voices, Impactful brand experiences
   social_image: 
   author: 
   favicon_image: 
@@ -11,13 +11,14 @@ social:
   facebook_url:
   twitter_username: 
 design: 
-  dark-text_color: 'rgb(60,60,65)'
-  medium-text_color: 'rgb(90,90,95)'
-  light-text_color: '#f7f5f3'
-  featured-text_color: 'red'
-  dark_color: 'rgb(60,60,65)'
-  medium_color: '#ede8e4'
-  light_color: '#f7f5f3'
+  dark-text_color: '#10080b'
+  medium-text_color: '#918d8d'
+  light-text_color: '#ece8ea'
+  featured-text_color: '#c0547b'
+  accent-text_color: '#f2d9e1'
+  dark_color: '#10080b'
+  medium_color: '#918d8d'
+  light_color: '#ece8ea'
   v-light_color: '#f9f9f9'
-  featured_color: '#6495ed'
-  accent_color: 'rgb(167, 74, 74)'
+  featured_color: '#c0547b'
+  accent_color: '#f2d9e1'
